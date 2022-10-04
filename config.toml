@@ -1,0 +1,77 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "UCLA LUG"
+theme = "ezhil"
+paginate = 5
+
+copyright = "© 2022 Copyright"
+
+pygmentsstyle = "solarized-dark"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+summaryLength = 20
+
+[permalinks]
+	posts = '/:filename'
+
+[params]
+	subtitle = "UCLA Linux User Group. Free as in Freedom."
+	logo = "lug-ucla-logo.svg"
+	favicon = "/favicon.ico"
+	disableDisqusTypes = ["page"]
+	featherIconsCDN = true
+	mode = "auto" # "dark", "auto", "light"
+	# customCSS = "css/custom.css"  # Custom CSS applied to default styles.
+	# customDarkCSS = "css/custom-dark.css"  # Custom styles applied to dark mode css.
+	# customJS = ["https://code.jquery.com/jquery-3.4.1.js", "js/custom1.js"]  # Custom JS scripts.
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 1
+
+[[menu.main]]
+name = "Membership"
+url = "/membership"
+weight = 2
+
+[[menu.main]]
+name = "Articles"
+url = "/posts"
+weight = 3
+
+[[menu.main]]
+name = "News"
+url = "/news"
+weight = 4
+
+[[menu.main]]
+name = "Switch to Linux 🐧"
+url = "/linux"
+weight = 5
+
+[[params.social]]
+name = "Discord"
+icon = "users"
+url = "https://discord.com/invite/EmGKCa48R6"
+
+[[params.social]]
+name = "Instagram"
+icon = "instagram"
+url = "https://instagram.com/lug.ucla"
+
+[[params.social]]
+name = "Github"
+icon = "github"
+url = "https://github.com/lug-ucla"
+
+[[params.social]]
+name = "RSS"
+icon = "rss"
+url = "/index.xml"
+
+
+
+[taxonomies]
+   tag = "tags"
